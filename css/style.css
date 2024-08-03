@@ -3,9 +3,16 @@
     --fonte-principal: 'Poppins', sans-serif;
 }
 
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
 body{
     font-family: var(--fonte-principal);
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
@@ -20,12 +27,13 @@ body{
 .cabecalho{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .principal{
     background-color: #cfdaf8;
     padding: 20px;
-    height: 70vh;
+    height: 80vh;
     background-image: linear-gradient(to right, rgba(197, 224, 235, 0.8), rgba(140, 140, 243, 0.6)), url('../img/bg.jpg'); background-size: cover; 
 
 } 
@@ -40,7 +48,6 @@ body{
     font-size: 10px; 
     background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(45, 3, 113, 0.6)), url('../img/footer.jpg'); background-size: cover; 
     background-position: center; 
-
 }
 
 .logo{
@@ -128,11 +135,15 @@ button:hover{
     border-color:rgb(0, 14, 94);
 }
 
-.exercicios-primeira-parte, .exercicios-segunda-parte{
+.exercicios{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+
 }
 
-.exercicios-primeira-parte{
+.exercicios{
     padding: 2rem 0;
 }
