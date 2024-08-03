@@ -8,6 +8,10 @@ html, body{
     margin: 0;
 }
 
+.main{
+    flex: 1;
+}
+
 body{
     font-family: var(--fonte-principal);
     font-size: 14px;
@@ -18,6 +22,7 @@ body{
 .header{
     height: 20vh;
 }
+
 .cabecalho-completo{
     background-color: #85a5ff;
     padding: 8px;
@@ -39,6 +44,7 @@ body{
 } 
 
 .rodape{
+    width: 100%:
     height: 10vh;
     background-color: #4169e1;
     color: white;
