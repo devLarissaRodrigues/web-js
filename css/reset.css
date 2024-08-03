@@ -1,0 +1,41 @@
+/* Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove o sublinhado dos links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove a formatação padrão de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove a formatação padrão de tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Define a fonte padrão para o body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Define o comportamento padrão dos headers e parágrafos */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0 0 1em 0;
+}
