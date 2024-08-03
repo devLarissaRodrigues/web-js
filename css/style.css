@@ -12,6 +12,7 @@ main{
     flex: 1;
     align-itens: center;
     justify-content: center;
+    gap: 10px;
 }
 
 body{
