@@ -40,7 +40,8 @@ body{
 } 
 
 .rodape{
-    height: 10vh;
+    height: 10vh;    
+    height: 100%;
     background-color: #4169e1;
     color: white;
     display: flex;
