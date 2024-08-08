@@ -3,11 +3,6 @@
     --fonte-principal: 'Poppins', sans-serif;
 }
 
-html, body{
-    height: 100%;
-    margin: 0;
-}
-
 body{
     font-family: var(--fonte-principal);
     font-size: 14px;
