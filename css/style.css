@@ -39,6 +39,8 @@ body{
     font-size: 10px; 
     background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(45, 3, 113, 0.6)), url('../img/footer.jpg'); background-size: cover; 
     background-position: center; 
+    display: flex;
+    justify-content: center;
 }
 
 .logo{
@@ -131,10 +133,5 @@ button:hover{
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-
-
-}
-
-.exercicios{
     padding: 2rem 0;
 }
