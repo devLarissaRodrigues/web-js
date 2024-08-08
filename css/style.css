@@ -27,7 +27,7 @@ body{
 .principal{
     background-color: #cfdaf8;
     padding: 20px;
-    height: 500vh;
+    height: 70vh;
     background-image: linear-gradient(to right, rgba(197, 224, 235, 0.8), rgba(140, 140, 243, 0.6)), url('../img/bg.jpg'); background-size: cover; 
     display: flex;
     flex-direction: column;
